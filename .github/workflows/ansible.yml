@@ -29,4 +29,4 @@ jobs:
           /opt/pipx/venvs/ansible-core/bin/python -m pip install boto3 boto botocore
 
       - name: Run Ansible Playbook
-        run: ansible-playbook -i aws_ec2.yml --private-key=ansible_key playbook.yml -u ec2-user -b 
+        run: ansible-playbook -i aws_ec2.yml --private-key=ansible_key playbook.yml -u ec2-user -b
